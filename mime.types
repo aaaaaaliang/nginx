@@ -1,0 +1,69 @@
+types {
+    # HTML / 文本
+    text/html                             html htm shtml;
+    text/css                              css;
+    text/plain                            txt;
+    text/csv                              csv;
+    text/xml                              xml;
+    text/markdown                         md;
+
+    # 脚本类
+    application/javascript                js;
+    application/json                      json;
+    application/xml                       xml;
+
+    # 图像类
+    image/png                             png;
+    image/jpeg                            jpeg jpg;
+    image/gif                             gif;
+    image/webp                            webp;
+    image/avif                            avif;
+    image/svg+xml                         svg;
+    image/x-icon                          ico;
+    image/bmp                             bmp;
+    image/tiff                            tif tiff;
+
+    # 视频类
+    video/mp4                             mp4;
+    video/x-msvideo                       avi;
+    video/webm                            webm;
+    video/ogg                             ogv;
+
+    # 音频类
+    audio/mpeg                            mp3;
+    audio/ogg                             ogg;
+    audio/wav                             wav;
+    audio/webm                            webma;
+
+    # 字体类
+    font/woff                             woff;
+    font/woff2                            woff2;
+    application/vnd.ms-fontobject        eot;
+    application/x-font-ttf               ttf;
+    font/otf                              otf;
+
+    # 文档类
+    application/pdf                       pdf;
+    application/msword                   doc;
+    application/vnd.openxmlformats-officedocument.wordprocessingml.document docx;
+    application/vnd.ms-excel             xls;
+    application/vnd.openxmlformats-officedocument.spreadsheetml.sheet xlsx;
+    application/vnd.ms-powerpoint        ppt;
+    application/vnd.openxmlformats-officedocument.presentationml.presentation pptx;
+
+    # 压缩包 / 安装包
+    application/zip                       zip;
+    application/x-7z-compressed           7z;
+    application/x-rar-compressed          rar;
+    application/x-tar                     tar;
+    application/gzip                      gz;
+    application/x-bzip2                   bz2;
+    application/x-xz                      xz;
+
+    # 安装包
+    application/vnd.android.package-archive apk;
+    application/x-ios-app                ipa;
+
+    # 其他二进制/未知类型
+    application/octet-stream              bin exe dll;
+}
